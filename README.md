@@ -9,10 +9,16 @@ Explore the demo on [CodePen](https://codepen.io/vahidvb/pen/wLqBZj)
 
 ## Usage
 
-Download or clone the Git repository, and then add the JS and CSS files in your HTML <head></head>
+Download or clone the Git repository, and then add the JS and CSS files in your HTML `<head></head>`
 
+```bash
 <link rel="stylesheet" href="TypeWriterEffect.css">
+```
+
+```bash
 <script src="TypeWriterEffect.js"></script>
+```
+#### Commands for clone
 ```bash
 mkdir TypeWriterEffect
 cd TypeWriterEffect/
@@ -42,4 +48,5 @@ Also, you can simply set your duration in milliseconds using the typing-delay at
 ```html
 <div class="typing" typing-delay="300">Typing with repetition and custom delay</div>
 ```
+
 The default value is 5000 ms or 5 seconds
