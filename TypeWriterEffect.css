@@ -1,0 +1,14 @@
+.typing:after {
+    animation: blink-caret .5s step-end infinite;
+    border-right: 1px solid;
+    margin: 0 5px;
+    content: '';
+}
+@keyframes blink-caret {
+from,to {
+border-color: transparent
+}
+50% {
+border-color: inherit
+}
+}
